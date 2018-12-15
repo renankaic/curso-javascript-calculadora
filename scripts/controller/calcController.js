@@ -31,6 +31,13 @@ class CalcController {
 
     }
 
+    initButtonsEvents(){
+
+        //Gets all element that matches with the concept
+        let buttons = document.querySelectorAll("#buttons > g, #parts > g");
+
+    }
+
     setDisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale, {
